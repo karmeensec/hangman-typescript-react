@@ -34,16 +34,17 @@ const LEG_LEFT = (
 
 )
 
-export function HangmanPicture() { 
+const BODY_PARTS = [HEAD, BODY, ARM_RIGHT, ARM_LEFT, LEG_RIGHT, LEG_LEFT]
+
+type HangmanPictureProps = {
+    numberOfGuess: number
+}
+
+export function HangmanPicture( {numberOfGuess} : HangmanPictureProps ) { 
 
     return <div style={{ position: 'relative' }}>
 
-        {HEAD}
-        {BODY}
-        {ARM_RIGHT}
-        {ARM_LEFT}
-        {LEG_RIGHT}
-        {LEG_LEFT}
+        {BODY_PARTS.slice(0, numberOfGuess)}
 
         <div style={{ height: '50px', width: '10px', background: '#2C3E50', position: 'absolute', top: '0', right: '0'}} />
 

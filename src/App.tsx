@@ -12,7 +12,9 @@ function App() {
     return words[Math.floor(Math.random() * words.length)]; // random guess
   } );
 
-  const [guessedLetter, setGuessedLetter] = useState<string[]>([]);
+  const [guessedLetters, setGuessedLetter] = useState<string[]>([]);
+
+  const incorrectLetter = guessedLetters.filter(letter => !guessWord.includes(letter)) // not in the word list
 
   // Game TSX
 
@@ -20,8 +22,8 @@ function App() {
 
     <div style={{fontSize: '2rem', textAlign: 'center', fontFamily: 'Nunito'}}>Lost Won</div>
 
-    <HangmanPicture />
-    <HangmanWord />
+    <HangmanPicture numberOfGuess = {incorrectLetter.length} />
+    <HangmanWord guessedLetters = {guessedLetters} guessWord = {guessWord} />
 
     <div style={{alignSelf: 'stretch'}}>
       <Keyboard />
