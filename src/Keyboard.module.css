@@ -1,0 +1,24 @@
+.btn {
+    width: 100%;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    border: .1rem solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: .5rem;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+    background: #273746;
+    color: #F4F6F7;
+}
+
+.btn.active {
+    border: .2rem solid #F4F6F7;
+}
+
+.btn.inactive {
+    opacity: .2;
+}
