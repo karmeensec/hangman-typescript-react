@@ -22,7 +22,11 @@ function App() {
 
     <HangmanPicture />
     <HangmanWord />
-    <Keyboard />
+
+    <div style={{alignSelf: 'stretch'}}>
+      <Keyboard />
+    </div>
+    
 
   </div>
 
