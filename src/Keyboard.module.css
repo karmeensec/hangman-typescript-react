@@ -16,7 +16,7 @@
 }
 
 .btn.active {
-    border: .2rem solid #F4F6F7;
+    border: .2rem ridge #B7B75B;
 }
 
 .btn.inactive {
