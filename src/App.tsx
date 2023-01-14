@@ -1,3 +1,7 @@
+/**
+ * @author Kamil Ismayilzada
+ */
+
 import { KeyboardEvent, useCallback, useEffect, useState } from "react"
 import words from './comWordList.json'
 
