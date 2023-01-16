@@ -83,5 +83,7 @@ To deploy this project run
 
 ![screencapture-localhost-5173-2023-01-16-22_33_12](https://user-images.githubusercontent.com/84046930/212769447-87069770-5ae2-4854-838c-9682c501bd11.png)
 
-![screencapture-localhost-5173-2023-01-16-22_32_43](https://user-images.githubusercontent.com/84046930/212769459-0d41e640-63b6-419c-b2da-b584d9fc0e2c.png)
+![screencapture-localhost-5173-2023-01-16-22_32_43](https://user-images.githubusercontent.com/84046930/212769664-75176eaa-99cc-441c-9331-df09f70f1ccb.png)
+
+
 
